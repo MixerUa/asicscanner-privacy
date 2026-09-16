@@ -27,9 +27,9 @@
 
 <h1>Политика конфиденциальности</h1>
 <p class="meta">
-  Приложение: <strong>ASIC Scanner</strong> (<code>com.kievminer.asicscanner</code>)<br>
+  Приложение: <strong>ASIC Scanner</strong> для Android (<code>com.kievminer.asicscanner</code>) и Windows<br>
   Разработчик: KievMiner, Киев, Украина<br>
-  Дата вступления в силу: 4 августа 2026 г.
+  Дата вступления в силу: 16 сентября 2026 г.
 </p>
 
 <h2>Коротко</h2>
@@ -42,8 +42,8 @@
 
 <h2>Что делает приложение</h2>
 <p>
-  ASIC Scanner — инструмент для диагностики ASIC-майнеров (Bitmain Antminer)
-  в локальной сети. Он опрашивает майнеры по их сетевым адресам, показывает
+  ASIC Scanner — инструмент для диагностики ASIC-майнеров (Bitmain Antminer
+  и Canaan Avalon) в локальной сети. Он опрашивает майнеры по их сетевым адресам, показывает
   состояние плат и чипов, температуру, хешрейт и позволяет менять настройки
   самого майнера.
 </p>
@@ -92,6 +92,35 @@
   микрофону, файлам и другим личным данным.
 </p>
 
+<h2 id="windows-ru">Версия для Windows</h2>
+<p>
+  Всё сказанное выше о данных относится и к программе для Windows (установщик
+  с сайта и версия из Microsoft Store). Отличия касаются только того, где
+  лежат файлы:
+</p>
+<ul>
+  <li><strong>Настройки</strong>, включая логины и пароли веб-интерфейсов
+      майнеров, хранятся в файле <code>asicscanner_config.json</code> на вашем
+      компьютере: рядом с программой у версии из установщика или в папке
+      <code>%LOCALAPPDATA%</code> у версии из Microsoft Store. Файл не
+      шифруется и никуда не передаётся. Удаление программы удаляет его.</li>
+  <li><strong>Отчёты и диагностические логи</strong> сохраняются только туда,
+      куда вы сами укажете в окне сохранения файла.</li>
+  <li><strong>Сеть.</strong> Программа обращается только к адресам в выбранном
+      вами диапазоне локальной сети. Чтобы предложить подходящую сеть, она
+      определяет IP-адрес компьютера средствами Windows, ничего не отправляя
+      наружу.</li>
+  <li><strong>Браузер</strong> открывается только по вашему действию:
+      веб-интерфейс майнера по двойному щелчку на его адресе, сохранённый
+      отчёт, а также сайт <a href="https://kievminer.com.ua/">kievminer.com.ua</a>
+      и Telegram-контакты KievMiner в разделе «Купить, продать и
+      отремонтировать оборудование».</li>
+</ul>
+<p>
+  Программа не запрашивает прав администратора, не пишет в реестр и не
+  работает в фоне после закрытия окна.
+</p>
+
 <h2>Передача данных третьим лицам</h2>
 <p>
   Никакой передачи нет. В приложении не используются сервисы аналитики,
@@ -127,9 +156,9 @@
 
 <h1 id="en">Privacy Policy</h1>
 <p class="meta">
-  App: <strong>ASIC Scanner</strong> (<code>com.kievminer.asicscanner</code>)<br>
+  App: <strong>ASIC Scanner</strong> for Android (<code>com.kievminer.asicscanner</code>) and Windows<br>
   Developer: KievMiner, Kyiv, Ukraine<br>
-  Effective date: 4 August 2026
+  Effective date: 16 September 2026
 </p>
 
 <h2>Summary</h2>
@@ -141,8 +170,8 @@
 
 <h2>What the app does</h2>
 <p>
-  ASIC Scanner is a diagnostic tool for ASIC miners (Bitmain Antminer) on a
-  local network. It queries miners at their network addresses, shows the state
+  ASIC Scanner is a diagnostic tool for ASIC miners (Bitmain Antminer and
+  Canaan Avalon) on a local network. It queries miners at their network addresses, shows the state
   of hashboards and chips, temperature and hashrate, and lets you change the
   miner's own settings.
 </p>
@@ -186,6 +215,34 @@
 <p>
   The app does not request access to contacts, location, camera, microphone,
   files or any other personal data.
+</p>
+
+<h2 id="windows-en">Windows version</h2>
+<p>
+  Everything above about data applies equally to the Windows app (the
+  installer from our website and the Microsoft Store version). The only
+  differences concern where files are kept:
+</p>
+<ul>
+  <li><strong>Settings</strong>, including login credentials for your miners'
+      web interfaces, are stored in <code>asicscanner_config.json</code> on your
+      computer: next to the program for the installer version, or under
+      <code>%LOCALAPPDATA%</code> for the Microsoft Store version. The file is
+      not encrypted and is never transmitted. Uninstalling the app deletes it.</li>
+  <li><strong>Reports and diagnostic logs</strong> are saved only where you
+      choose in the file save dialog.</li>
+  <li><strong>Network.</strong> The app contacts only addresses in the local
+      network range you select. To suggest the right network it reads the
+      computer's IP address from Windows, without sending anything out.</li>
+  <li><strong>The browser</strong> opens only when you ask: a miner's web
+      interface when you double-click its address, a saved report, and the
+      <a href="https://kievminer.com.ua/">kievminer.com.ua</a> website and
+      KievMiner's Telegram contacts in the "Buy, sell and repair equipment"
+      section.</li>
+</ul>
+<p>
+  The app does not require administrator rights, does not write to the
+  registry and does not run in the background after its window is closed.
 </p>
 
 <h2>Sharing with third parties</h2>
