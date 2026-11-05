@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC Scanner — Условия использования / Terms of Use</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 760px; margin: 0 auto; padding: 32px 20px 80px;
+    font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; }
+  h3 { font-size: 16px; margin: 22px 0 6px; }
+  .meta { color: #666; font-size: 14px; margin-bottom: 28px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 48px 0; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 14px; }
+  .lang-switch { font-size: 14px; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+
+<p class="lang-switch"><a href="#en">English version below</a> ·
+  <a href="./">Политика конфиденциальности / Privacy Policy</a></p>
+
+<h1>Условия использования</h1>
+<p class="meta">
+  Приложение: <strong>ASIC Scanner</strong> для Android (<code>com.kievminer.asicscanner</code>) и Windows<br>
+  Разработчик: KievMiner, Киев, Украина<br>
+  Дата вступления в силу: 5 ноября 2026 г.
+</p>
+
+<h2>Коротко</h2>
+<p>
+  ASIC Scanner — бесплатный инструмент для диагностики и настройки
+  ASIC-майнеров в вашей локальной сети. Пользуясь приложением, вы
+  соглашаетесь с условиями ниже. Главное: приложение не только показывает
+  состояние майнеров, но и <strong>меняет их настройки</strong>, а
+  ответственность за оборудование остаётся на вас.
+</p>
+
+<h2>1. Что это за приложение</h2>
+<p>
+  ASIC Scanner находит ASIC-майнеры (Bitmain Antminer со стоковой прошивкой и
+  с Vnish, Canaan Avalon) по их адресам в локальной сети, показывает состояние
+  плат и чипов, температуру, хешрейт и ошибки, которые сообщает сама прошивка,
+  и позволяет изменить настройки майнера: пул, рабочий режим, целевую и
+  критическую температуру, профиль разгона, напряжение и частоту, а также
+  включить, выключить и перезагрузить майнер.
+</p>
+
+<h2>2. Право пользования</h2>
+<p>
+  Приложение предоставляется бесплатно. Вы можете пользоваться им для личных и
+  коммерческих целей, в том числе в сервисном центре, на любом числе
+  устройств. Исходный код не открыт: приложение нельзя декомпилировать,
+  модифицировать, перепродавать и распространять под другим именем. Все права
+  на приложение принадлежат KievMiner.
+</p>
+
+<h2>3. Только своё оборудование</h2>
+<p>
+  Сканируйте только те сети и управляйте только тем оборудованием, которые
+  принадлежат вам или которые вы обслуживаете с разрешения владельца.
+  Сканирование чужих сетей и доступ к чужим устройствам могут нарушать закон;
+  ответственность за это несёт пользователь.
+</p>
+
+<h2>4. Изменение настроек майнера — на ваш риск</h2>
+<p>
+  Это самое важное условие, и оно не формальность:
+</p>
+<ul>
+  <li><strong>Напряжение и частота.</strong> Приложение передаёт введённые
+      значения прошивке майнера как есть, в пределах, которые сообщает сама
+      прошивка. Неверно выставленное напряжение способно вывести из строя
+      хешплаты и блок питания. Если прошивка не сообщает допустимых пределов,
+      приложение намеренно не показывает такой регулятор — но там, где
+      регулятор есть, выбор значения остаётся за вами.</li>
+  <li><strong>Разгон и режимы работы.</strong> Изменение профиля разгона,
+      рабочего режима и критической температуры влияет на нагрев, износ и
+      срок службы оборудования.</li>
+  <li><strong>Гарантия производителя.</strong> Разгон и смена прошивочных
+      параметров обычно лишают оборудование гарантии производителя. Это
+      решение принимаете вы.</li>
+  <li><strong>Перезапуск майнинга.</strong> Запись части настроек приводит к
+      перезапуску майнинга или перезагрузке майнера — это поведение самой
+      прошивки, а не приложения.</li>
+  <li><strong>Смена пула.</strong> Проверяйте адрес пула и имя воркера: при
+      ошибке майнер будет работать «в никуда», и добыча за это время
+      потеряется.</li>
+</ul>
+
+<h2>5. Диагностика носит справочный характер</h2>
+<p>
+  Оценки состояния чипов, предупреждения и сообщения о неисправностях
+  строятся из того, что сообщает прошивка майнера. Прошивки разных моделей
+  сообщают разное и иногда сообщают неточно; часть сведений недоступна в
+  принципе — в таких случаях приложение показывает прочерк или поясняет, чего
+  прошивка не отдаёт, и намеренно ничего не додумывает. Решение о ремонте или
+  замене оборудования принимает специалист, а не приложение.
+</p>
+
+<h2>6. Пароли от майнеров</h2>
+<p>
+  Для чтения отчётов и записи настроек приложению нужны логин и пароль от
+  веб-интерфейса майнера. Они хранятся в файле настроек на вашем устройстве в
+  открытом виде и никуда не передаются — подробности в
+  <a href="./">Политике конфиденциальности</a>. Храните устройство с
+  приложением так, как вы хранили бы записанные пароли от оборудования.
+</p>
+
+<h2>7. Отсутствие гарантий</h2>
+<p>
+  Приложение предоставляется «как есть». Мы не гарантируем, что оно найдёт
+  любой майнер, правильно распознает любую прошивку, будет работать без
+  ошибок и перерывов или совместимо с будущими версиями прошивок и
+  операционных систем. Поддержка Vnish и Canaan Avalon проверена на
+  ограниченном числе физических устройств.
+</p>
+
+<h2>8. Ограничение ответственности</h2>
+<p>
+  В максимальной степени, допустимой законом, KievMiner не несёт
+  ответственности за повреждение оборудования, простой, упущенную выгоду,
+  потерянную добычу, потерю данных и любые иные убытки, возникшие в связи с
+  использованием приложения, включая случаи, когда они вызваны настройками,
+  записанными в майнер через приложение. Приложение бесплатно, и сумма любой
+  ответственности в любом случае не превышает уплаченной вами за него суммы.
+</p>
+
+<h2>9. Чужие товарные знаки</h2>
+<p>
+  Bitmain, Antminer, Canaan, Avalon, Vnish и другие упомянутые названия
+  принадлежат их правообладателям. KievMiner не связан с этими компаниями, не
+  является их представителем и не поставляет их прошивки. Названия
+  используются только для указания совместимости.
+</p>
+
+<h2>10. Обновления и прекращение работы</h2>
+<p>
+  Приложение может обновляться; новые версии могут менять, добавлять и
+  удалять возможности. Мы можем прекратить выпуск обновлений в любой момент —
+  уже установленное приложение при этом продолжит работать. Вы можете
+  прекратить пользоваться приложением в любой момент, просто удалив его.
+</p>
+
+<h2>11. Изменения условий</h2>
+<p>
+  Эти условия могут быть обновлены; дата вступления в силу вверху страницы
+  будет изменена. Продолжая пользоваться приложением после обновления, вы
+  принимаете новую редакцию.
+</p>
+
+<h2>12. Применимое право</h2>
+<p>
+  К этим условиям применяется законодательство Украины. Споры мы предлагаем
+  сначала решать перепиской — напишите нам, это быстрее любого другого пути.
+</p>
+
+<h2>Контакты</h2>
+<p>
+  KievMiner, г. Киев, ул. Машиностроительная, 37<br>
+  Телефон: +38 073 843 31 11<br>
+  Telegram: <a href="https://t.me/KievMinerhelp">t.me/KievMinerhelp</a><br>
+  Сайт: <a href="https://kievminer.com.ua/">kievminer.com.ua</a>
+</p>
+
+<hr>
+
+<h1 id="en">Terms of Use</h1>
+<p class="meta">
+  App: <strong>ASIC Scanner</strong> for Android (<code>com.kievminer.asicscanner</code>) and Windows<br>
+  Developer: KievMiner, Kyiv, Ukraine<br>
+  Effective date: 5 November 2026
+</p>
+
+<h2>Summary</h2>
+<p>
+  ASIC Scanner is a free tool for diagnosing and configuring ASIC miners on
+  your local network. By using the app you agree to the terms below. The key
+  point: the app does not only show the state of your miners, it also
+  <strong>changes their settings</strong>, and the equipment remains your
+  responsibility.
+</p>
+
+<h2>1. What the app is</h2>
+<p>
+  ASIC Scanner finds ASIC miners (Bitmain Antminer on stock firmware and on
+  Vnish, Canaan Avalon) at their local network addresses, shows the state of
+  hashboards and chips, temperature, hashrate and the faults the firmware
+  itself reports, and lets you change a miner's settings: pool, work mode,
+  target and critical temperature, overclock preset, voltage and frequency, as
+  well as start, stop and reboot the miner.
+</p>
+
+<h2>2. Licence</h2>
+<p>
+  The app is provided free of charge. You may use it for personal and
+  commercial purposes, including in a repair shop, on any number of devices.
+  The source code is not open: the app may not be decompiled, modified, resold
+  or redistributed under another name. All rights in the app belong to
+  KievMiner.
+</p>
+
+<h2>3. Your own equipment only</h2>
+<p>
+  Scan only networks and operate only equipment that you own or service with
+  the owner's permission. Scanning other people's networks and accessing other
+  people's devices may be unlawful; the user bears responsibility for that.
+</p>
+
+<h2>4. Changing miner settings is at your own risk</h2>
+<p>
+  This is the most important term, and it is not a formality:
+</p>
+<ul>
+  <li><strong>Voltage and frequency.</strong> The app passes the values you
+      enter to the miner's firmware as they are, within the limits the
+      firmware itself reports. A wrong voltage can destroy hashboards and the
+      power supply. Where the firmware reports no limits, the app deliberately
+      shows no such control — but where a control is shown, choosing the value
+      is up to you.</li>
+  <li><strong>Overclocking and work modes.</strong> Changing the overclock
+      preset, work mode or critical temperature affects heat, wear and the
+      service life of the equipment.</li>
+  <li><strong>Manufacturer's warranty.</strong> Overclocking and changing
+      firmware parameters usually void the manufacturer's warranty. That
+      decision is yours.</li>
+  <li><strong>Mining restarts.</strong> Writing some settings makes the miner
+      restart mining or reboot — this is the firmware's own behaviour, not the
+      app's.</li>
+  <li><strong>Changing the pool.</strong> Check the pool address and worker
+      name: a mistake means the miner hashes into nowhere and that output is
+      lost.</li>
+</ul>
+
+<h2>5. Diagnostics are informational</h2>
+<p>
+  Chip grades, warnings and fault messages are built from what the miner's
+  firmware reports. Different models report different things and sometimes
+  report them inaccurately; some information is simply unavailable — in those
+  cases the app shows a dash or explains what the firmware does not provide,
+  and deliberately invents nothing. The decision to repair or replace
+  equipment is made by a technician, not by the app.
+</p>
+
+<h2>6. Miner passwords</h2>
+<p>
+  To read reports and write settings the app needs the login and password of a
+  miner's web interface. They are stored in plain text in a settings file on
+  your own device and are never transmitted — see the
+  <a href="./">Privacy Policy</a> for details. Keep the device running the app
+  as carefully as you would keep those passwords written down.
+</p>
+
+<h2>7. No warranty</h2>
+<p>
+  The app is provided "as is". We do not warrant that it will find every
+  miner, correctly recognise every firmware, run without errors or
+  interruption, or remain compatible with future firmware and operating system
+  versions. Vnish and Canaan Avalon support has been verified on a limited
+  number of physical devices.
+</p>
+
+<h2>8. Limitation of liability</h2>
+<p>
+  To the maximum extent permitted by law, KievMiner is not liable for damage
+  to equipment, downtime, lost profit, lost mining output, data loss or any
+  other damages arising from use of the app, including where they result from
+  settings written to a miner through the app. The app is free, and any
+  liability in any case does not exceed the amount you paid for it.
+</p>
+
+<h2>9. Third-party trademarks</h2>
+<p>
+  Bitmain, Antminer, Canaan, Avalon, Vnish and other names mentioned belong to
+  their respective owners. KievMiner is not affiliated with these companies,
+  does not represent them and does not supply their firmware. The names are
+  used only to state compatibility.
+</p>
+
+<h2>10. Updates and discontinuation</h2>
+<p>
+  The app may be updated; new versions may change, add or remove features. We
+  may stop releasing updates at any time — an app already installed will keep
+  working. You may stop using the app at any time by uninstalling it.
+</p>
+
+<h2>11. Changes to these terms</h2>
+<p>
+  These terms may be updated and the effective date at the top of the page
+  changed accordingly. Continuing to use the app after an update means you
+  accept the new version.
+</p>
+
+<h2>12. Governing law</h2>
+<p>
+  These terms are governed by the law of Ukraine. We suggest settling any
+  dispute by writing to us first — it is faster than any other route.
+</p>
+
+<h2>Contact</h2>
+<p>
+  KievMiner, 37 Mashynobudivna St., Kyiv, Ukraine<br>
+  Phone: +38 073 843 31 11<br>
+  Telegram: <a href="https://t.me/KievMinerhelp">t.me/KievMinerhelp</a><br>
+  Website: <a href="https://kievminer.com.ua/">kievminer.com.ua</a>
+</p>
+
+</body>
+</html>
